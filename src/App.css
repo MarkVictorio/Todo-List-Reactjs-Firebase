@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+  margin: 0;
+  font-family: "Quicksand";
+}
+.App{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.App .content{
+  padding: 30px;
+  margin: 30px 200px auto;
+  background-color: rgb(65, 189, 113);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgb(65, 189, 113);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(70, 155, 84);
+}
+
+.to-do-containter{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(56, 168, 99);
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.to-do-containter .times{
+  font-size: 20px;
+}
+.to-do-containter .Functions .titler input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.to-do-containter .Functions .titler input:focus{
+  outline: none;
+}
+.to-do-containter .Functions .titler input::placeholder{
+  color:#ffffff;
+  text-align: center;
+}
+.to-do-containter .button{
+  height: 60px;
+  width:100px;
+  border: 0;
+  padding: 20px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+
+.to-do-form .input{
+  background-color: #ffffff;
+  border: 0;
+  width: 600px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.to-do-form .button{
+  height: 60px;
+  width:100px;
+  border: 0;
+  padding: 20px;
+}
+.complete {
+  text-decoration: line-through;
+}
+
